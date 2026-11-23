@@ -1,0 +1,26 @@
+{
+  "module": "llm-router-free",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "router": {
+      "enabled": true
+    },
+    "providers": {
+      "enabled": true
+    },
+    "fallback": {
+      "enabled": true
+    },
+    "log": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
